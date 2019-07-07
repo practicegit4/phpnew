@@ -11,7 +11,7 @@ public class BlogButtonAction {
 	
 	BlogElement blogTest;
 	
-      public void BlogPage(){
+      public void BlogPage() {
 		
 		PhpDriverSetup.driver.get("https://www.phptravels.net");
 		

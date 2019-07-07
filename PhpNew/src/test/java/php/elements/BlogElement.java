@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class BlogElement {
 
-	
+	/*
 	//blogButton 
 	@FindBy(xpath= "/html/body/nav/div/div[2]/ul[1]/li[1]/a")
 	public WebElement BlogButton;
@@ -23,6 +23,6 @@ public class BlogElement {
 	@FindBy(className= "panel-heading go-text-right")
 	public WebElement PPost;
 	
-	
+	*/
 	
 }

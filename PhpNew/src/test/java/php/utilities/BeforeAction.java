@@ -13,7 +13,7 @@ public class BeforeAction {
 		System.out.println("Chrome driver End");
 		
 		PhpDriverSetup.driver.manage().window().maximize();
-		PhpDriverSetup.driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
+		PhpDriverSetup.driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
 		
 
 }
