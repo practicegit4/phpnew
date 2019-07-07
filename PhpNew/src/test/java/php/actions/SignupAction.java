@@ -14,30 +14,30 @@ public class SignupAction {
 		
 	}
 	public void FirstName(String FirstName) {
-	PhpDriverSetup.driver.findElement(By.name("firstname")).sendKeys("FirstName");
+	PhpDriverSetup.driver.findElement(By.name("firstname")).sendKeys(FirstName);
 	
 	}
 	public void LastName(String LastName) {
-	PhpDriverSetup.driver.findElement(By.name("lastname")).sendKeys("LastName");
+	PhpDriverSetup.driver.findElement(By.name("lastname")).sendKeys(LastName);
 		
 	}
 	
 	public void Phone(String Phone) {
-	PhpDriverSetup.driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[5]/input").name("phone")).sendKeys("Phone");
+	PhpDriverSetup.driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[5]/input").name("phone")).sendKeys(Phone);
 	}		
 	
 	public void Email(String Email) {
-		PhpDriverSetup.driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[6]/input").name("email")).sendKeys("Email");;
+		PhpDriverSetup.driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[6]/input").name("email")).sendKeys(Email);;
 	}
 	
 	public void Password(String Password){
 		
-	PhpDriverSetup.driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[7]/input").name("password")).sendKeys("Password");
+	PhpDriverSetup.driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[7]/input").name("password")).sendKeys(Password);
 	}
 	
 	public void ConfirmPassword(String ConfirmPassword) {
 	
-	PhpDriverSetup.driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[8]/input").name("confirmpassword")).sendKeys("ConfirmPassword");
+	PhpDriverSetup.driver.findElement(By.xpath("//*[@id=\"headersignupform\"]/div[8]/input").name("confirmpassword")).sendKeys(ConfirmPassword);
 	
 	//to scroll down imported a code 
 	((JavascriptExecutor)PhpDriverSetup.driver).executeScript("scroll(0,100)");

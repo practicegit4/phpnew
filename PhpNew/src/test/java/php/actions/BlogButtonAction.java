@@ -2,8 +2,6 @@ package php.actions;
 
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-
 import php.elements.BlogElement;
 import php.utilities.PhpDriverSetup;
 
